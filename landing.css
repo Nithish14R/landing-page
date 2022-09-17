@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:ital,wght@1,300&display=swap');
+body{
+    background: #161616;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;    
+}
+.first-section{
+    width: 100%;
+}
+.first-section .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Prata', serif;
+}
+.first-section .navbar .logo{
+    color: bisque;
+    font-size: 1.1em;
+    cursor: pointer;
+
+}
+.navbar .navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .navigation ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.navbar .navigation ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-family: sans-serif;
+    font-size: 14px;    
+}
+.btn,.five-btn{
+    width: 10rem;
+    height: 40px;
+    cursor: pointer;
+    background:palegreen;
+}
+.section-two{
+    margin:50px 130px;
+    color: white;
+}
+.section-two .content{
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Prata', serif;
+}
+.section-two .para{
+    font-family: 'Inter', sans-serif;
+    margin-top: -15px;
+    font-weight: 100;
+    color: lightgray;
+}
+.section-three{
+    width: 100%;
+    position: relative;
+}
+.section-three .company-logos ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-three .company-logos ul li{
+    list-style: none;
+    margin:2rem;
+}
+.sec-three{
+    width:100%;
+    position: relative;    
+}
+.sec-three .sec-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        color: white;
+}
+.sec-container .spense img{
+        width: 450px;
+}
+.sec-container .yelp img{
+    width: 450px;
+}
+.sec-three .sec-container h1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 1.3em;
+    font-family: 'Prata', serif;
+}
+.sec-three .sec-container .spense-para{
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+}
+.sec-four{
+    width: 100%;
+    position: relative;
+    background-color: #3a3b3c;
+    margin:40px 0;
+}
+.sec-four .four{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+    padding: 40px 15px;
+}
+.sec-four .four h1{
+    color: #fff;
+    font-family: 'Prata', serif;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+.four .four-para{
+    color:lightgray;
+    font-family:'Inter', sans-serif;
+    font-size: 16px;
+}
+.sec-five{
+    position:relative;
+    width: 100%;
+    padding: 40px 10px;
+}
+.sec-five .five-container{
+    margin:1rem 9rem;    
+}
+.sec-five .five-container h1{
+    color: white;
+    font-family:'Prata', serif;
+    font-weight: 100;
+    line-height: 2px;
+    font-size: 2rem;
+}
+.sec-five .five-container .five-para{
+    color: lightgray;
+    font-size: 1rem;
+    font-family:'Inter', sans-serif;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: #3a3b3c;
+}
+.footer footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px 150px;
+}
+.footer footer .title{
+    font-family: 'prata',serif;
+    color: #fff;
+}
+.footer footer .social ul{
+    display: flex;
+}
+.footer footer .social ul li{
+    list-style: none;
+    margin-right: 10px;
+}
